@@ -54,7 +54,7 @@ class FullTimeEmployee extends Employee {
 	}
 }
 
-
+//PartTimeEmployee class
 class PartTimeEmployee extends Employee {
 	
 	private int hoursWorked;
