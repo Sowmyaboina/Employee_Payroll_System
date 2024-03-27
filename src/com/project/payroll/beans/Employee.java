@@ -54,19 +54,23 @@ class FullTimeEmployee extends Employee {
 	}
 }
 
-//PartTimeEmployee class
+//PartTimeEmployee extends from Employee class
 class PartTimeEmployee extends Employee {
 	
-	//hoursWorked and hourlyrate specific to Employee
+	//hoursWorked and hourlyRate specific to Employee
 	private int hoursWorked;
 	private double hourlyRate;
 	
+	//Constructor of a PartTimeEmployee to initialize name, id, hoursWorked, hourlyRate
 	public PartTimeEmployee ( String name, int id, int hoursWorked, double hourlyRate ) {
+		//Invoke the constructor of the superclass (Employee) to initialize name and id
 		super ( name, id );
+		//Assign hoursWorked and hourlyRate specific to PartTimeEmployee
 		this.hoursWorked = hoursWorked;
 		this.hourlyRate = hourlyRate;
 	}
 	
+	//overriding calculate salary from Employee class 
 	@Override
 	public double calculateSalary() {
 		return hoursWorked * hourlyRate;
