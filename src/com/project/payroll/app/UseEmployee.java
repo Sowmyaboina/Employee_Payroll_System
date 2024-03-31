@@ -18,13 +18,15 @@ public class UseEmployee {
 		FullTimeEmployee employee4 = new FullTimeEmployee( "Aroohi jain" , 104 , 600000.00);
 		FullTimeEmployee employee5 = new FullTimeEmployee( "Karthik birla" , 105 , 800000.00);
 		FullTimeEmployee employee6 = new FullTimeEmployee( "Arnav Singh" , 106 , 600000.00);
+		FullTimeEmployee employee7 = new FullTimeEmployee( "Araav Singh" , 107 , 600000.00);
 		
-		PartTimeEmployee employee7 = new PartTimeEmployee( "Armaan Poddar", 107, 12 , 550.00);
-		PartTimeEmployee employee8 = new PartTimeEmployee( "Kushi Gupta", 108, 8 , 400.00);
-		PartTimeEmployee employee9 = new PartTimeEmployee( "Lavanya Kumar", 109, 9 , 500.00);
-		PartTimeEmployee employee10 = new PartTimeEmployee( "Kaveri Karthik", 1010, 10 , 400.00);
-		PartTimeEmployee employee11 = new PartTimeEmployee( "Sreenivas sri", 1011, 12 , 550.00);
-		PartTimeEmployee employee12 = new PartTimeEmployee( "Mohit Singh", 1012, 8 , 400.00);
+		PartTimeEmployee employee8 = new PartTimeEmployee( "Armaan Poddar", 108, 12 , 550.00);
+		PartTimeEmployee employee9 = new PartTimeEmployee( "Kushi Gupta", 109, 8 , 400.00);
+		PartTimeEmployee employee10 = new PartTimeEmployee( "Lavanya Kumar", 1010, 9 , 500.00);
+		PartTimeEmployee employee11 = new PartTimeEmployee( "Kaveri Karthik", 1011, 10 , 400.00);
+		PartTimeEmployee employee12 = new PartTimeEmployee( "Sreenivas sri", 1012, 12 , 550.00);
+		PartTimeEmployee employee13 = new PartTimeEmployee( "Mohit Singh", 1013, 8 , 400.00);
+		PartTimeEmployee employee14 = new PartTimeEmployee( "Sivanya Singh", 1014, 8 , 400.00);
 		
 		// Add employees to the PayrollSystem
 		payrollSystem.addEmployee(employee1);
@@ -39,6 +41,8 @@ public class UseEmployee {
 		payrollSystem.addEmployee(employee10);
 		payrollSystem.addEmployee(employee11);
 		payrollSystem.addEmployee(employee12);
+		payrollSystem.addEmployee(employee13);
+		payrollSystem.addEmployee(employee14);
 		System.out.println();
 		
 		// Display initial employee details
@@ -54,6 +58,7 @@ public class UseEmployee {
 		// Display remaining employee details
 		System.out.println("Remaining Employee Details ......");
 		payrollSystem.displayEmployees();
+		
 	}
 
 }
