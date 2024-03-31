@@ -53,6 +53,7 @@ public class UseEmployee {
 		// Remove an employee
 		System.out.println("Removing Employee......");
 		payrollSystem.removeEmployee(101);
+		payrollSystem.removeEmployee(1010);
 		System.out.println();
 		
 		// Display remaining employee details
