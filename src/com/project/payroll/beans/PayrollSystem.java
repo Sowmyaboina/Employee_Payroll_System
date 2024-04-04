@@ -30,10 +30,10 @@ public class PayrollSystem {
 			}
 			
 		}
-		
-		if ( employeeToRemove != null ) {
+		System.out.println();
+		//if ( employeeToRemove != null ) {
 			employeeList.remove(employeeToRemove);
-		}
+		//}
   }	
 
 	//displayEmployees method to display Employees 

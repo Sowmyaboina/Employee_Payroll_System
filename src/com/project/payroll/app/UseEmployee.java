@@ -7,7 +7,6 @@ import com.project.payroll.beans.PayrollSystem;
 public class UseEmployee {
 
 	public static void main(String[] args) {
-		
 		// Instantiate a PayrollSystem object
 		PayrollSystem payrollSystem = new PayrollSystem();
 		
@@ -27,6 +26,8 @@ public class UseEmployee {
 		PartTimeEmployee employee12 = new PartTimeEmployee( "Sreenivas sri", 1012, 12 , 550.00);
 		PartTimeEmployee employee13 = new PartTimeEmployee( "Mohit Singh", 1013, 8 , 400.00);
 		PartTimeEmployee employee14 = new PartTimeEmployee( "Sivanya Singh", 1014, 8 , 400.00);
+		PartTimeEmployee employee15 = new PartTimeEmployee( "Sivanya Singh", 1014, 8 , 400.00);
+		
 		
 		// Add employees to the PayrollSystem
 		payrollSystem.addEmployee(employee1);
@@ -43,6 +44,7 @@ public class UseEmployee {
 		payrollSystem.addEmployee(employee12);
 		payrollSystem.addEmployee(employee13);
 		payrollSystem.addEmployee(employee14);
+		payrollSystem.addEmployee(employee15);
 		System.out.println();
 		
 		// Display initial employee details
@@ -52,7 +54,7 @@ public class UseEmployee {
 
 		// Remove an employee
 		System.out.println("Removing Employee......");
-		payrollSystem.removeEmployee(101);
+		payrollSystem.removeEmployee(0);
 		payrollSystem.removeEmployee(1010);
 		System.out.println();
 		
