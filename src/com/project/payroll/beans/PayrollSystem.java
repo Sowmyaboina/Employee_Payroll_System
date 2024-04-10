@@ -33,8 +33,7 @@ public class PayrollSystem {
 		System.out.println();
 		if ( employeeToRemove != null ) {
 			employeeList.remove(employeeToRemove);
-			System.out.println("Employee removed");
-			System.out.println(employeeToRemove);
+			System.out.println("Employee removed : "+ employeeToRemove);
 		}
 		else {
 			System.out.println("Employee with ID " + id + " not found.");
