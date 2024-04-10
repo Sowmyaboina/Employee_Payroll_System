@@ -31,9 +31,14 @@ public class PayrollSystem {
 			
 		}
 		System.out.println();
-		//if ( employeeToRemove != null ) {
+		if ( employeeToRemove != null ) {
 			employeeList.remove(employeeToRemove);
-		//}
+			System.out.println("Employee removed");
+			System.out.println(employeeToRemove);
+		}
+		else {
+			System.out.println("Employee with ID " + id + " not found.");
+		}
   }	
 
 	//displayEmployees method to display Employees 
